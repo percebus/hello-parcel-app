@@ -13,8 +13,8 @@
     "standard": "standard --fix src/**/*.js",
     "lint:js": "npm run standard",
     "lint": "npm run lint:js",
-    "prebuild": "npm run lint",
-    "build": "npm run parcel:build",
+    "predist": "npm run lint",
+    "dist": "npm run parcel:build",
     "browser": "open-cli http://localhost:1234",
     "prestart": "npm run lint",
     "start": "npm run parcel:default"  
