@@ -1,5 +1,9 @@
 # `hello-parcel-app`
 
+My First Parcel App
+
+See [Building a web app with Parcel](https://parceljs.org/getting-started/webapp/)
+
 ## Setup
 
 ### First time
